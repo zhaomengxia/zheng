@@ -123,7 +123,7 @@ public class AESUtil {
         } catch (BadPaddingException e) {
             e.printStackTrace();
         }
-        //如果有错就返加nulll
+        //如果有错就返加null
         return null;
     }
 

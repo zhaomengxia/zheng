@@ -255,20 +255,20 @@ Spring+SpringMVC+Mybatis框架集成公共模块，包括公共配置、MybatisG
 
 ### 修改本地Host
 
-- 127.0.0.1	ui.zhangshuzheng.cn
-- 127.0.0.1	upms.zhangshuzheng.cn
-- 127.0.0.1	cms.zhangshuzheng.cn
-- 127.0.0.1	pay.zhangshuzheng.cn
-- 127.0.0.1	ucenter.zhangshuzheng.cn
-- 127.0.0.1	wechat.zhangshuzheng.cn
-- 127.0.0.1	api.zhangshuzheng.cn
-- 127.0.0.1	oss.zhangshuzheng.cn
-- 127.0.0.1 config.zhangshuzheng.cn
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1 127.0.0.1
 
-- 127.0.0.1	zkserver
-- 127.0.0.1	rdserver
-- 127.0.0.1	dbserver
-- 127.0.0.1	mqserver
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
+- 127.0.0.1	127.0.0.1
 
 ### 编译流程
 
@@ -290,7 +290,7 @@ maven编译安装zheng/pom.xml文件即可
 
 ![启动演示](project-bootstrap/start.png)
 
-- 访问 [http://upms.zhangshuzheng.cn:1111/](http://upms.zhangshuzheng.cn:1111/ "统一后台地址")，子系统菜单已经配置到zheng-upms权限中，不用直接访问子系统，默认帐号密码：admin/123456
+- 访问 [http://127.0.0.1:1111/](http://127.0.0.1:1111/ "统一后台地址")，子系统菜单已经配置到zheng-upms权限中，不用直接访问子系统，默认帐号密码：admin/123456
 
 - 登录成功后，可在右上角切换已注册系统访问
 
@@ -385,7 +385,7 @@ maven编译安装zheng/pom.xml文件即可
 
 ## 演示地址
 
-演示地址： [http://upms.zhangshuzheng.cn/](http://47.93.195.63/zheng-upms-server/sso/login?backurl=http%3A%2F%2F47.93.195.63%2Fzheng-upms-server%2Fmanage%2Findex "演示地址")
+演示地址： [http://127.0.0.1/](http://47.93.195.63/zheng-upms-server/sso/login?backurl=http%3A%2F%2F47.93.195.63%2Fzheng-upms-server%2Fmanage%2Findex "演示地址")
 
 ### 预览图
 ![idea](project-bootstrap/idea.png)
