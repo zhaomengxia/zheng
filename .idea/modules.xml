@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/zheng.iml" filepath="$PROJECT_DIR$/.idea/zheng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zheng.iml" filepath="$PROJECT_DIR$/zheng.iml" />
       <module fileurl="file://$PROJECT_DIR$/zheng-admin/zheng-admin.iml" filepath="$PROJECT_DIR$/zheng-admin/zheng-admin.iml" />
       <module fileurl="file://$PROJECT_DIR$/zheng-api/zheng-api.iml" filepath="$PROJECT_DIR$/zheng-api/zheng-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/zheng-api/zheng-api-common/zheng-api-common.iml" filepath="$PROJECT_DIR$/zheng-api/zheng-api-common/zheng-api-common.iml" />

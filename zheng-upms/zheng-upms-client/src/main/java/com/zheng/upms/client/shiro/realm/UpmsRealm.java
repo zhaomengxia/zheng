@@ -16,6 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import javax.annotation.Resource;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -28,7 +29,7 @@ public class UpmsRealm extends AuthorizingRealm {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(UpmsRealm.class);
 
-    @Autowired
+    @Resource
     private UpmsApiService upmsApiService;
 
     /**

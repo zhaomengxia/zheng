@@ -123,13 +123,13 @@ public class AESUtil {
         } catch (BadPaddingException e) {
             e.printStackTrace();
         }
-        //如果有错就返加null
+        //如果有错就返加nulll
         return null;
     }
 
     public static void main(String[] args) {
         String[] keys = {
-                "", "root"
+                 "root"
         };
         System.out.println("key | AESEncode | AESDecode");
         for (String key : keys) {
